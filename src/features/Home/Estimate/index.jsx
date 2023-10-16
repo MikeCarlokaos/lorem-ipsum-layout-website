@@ -4,7 +4,7 @@ const Estimate = () => {
   return (
     <section className="w-full h-screen p-5">
       <div className="w-full h-full flex flex-col items-center border-4 shadow-inner">
-        <h1 className="py-10 text-4xl font-semibold capitalize">
+        <h1 className="py-10 text-4xl text-center font-semibold capitalize">
           get a free estimate
         </h1>
         <form className="w-full px-10 flex flex-col gap-5 md:w-[40rem] md:px-0">
