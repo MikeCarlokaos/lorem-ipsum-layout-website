@@ -40,7 +40,9 @@ const Footer = () => {
             </h3>
             <div className="w-full flex flex-col items-center py-3 gap-2 capitalize">
               <p className="font-bold">lorem ipsum</p>
-              <p>address: mount lebanon, pennsylvania 15228</p>
+              <p className="text-center">
+                address: mount lebanon, pennsylvania 15228
+              </p>
               <p>(000) 000-000</p>
             </div>
           </div>

@@ -16,13 +16,13 @@ const Navbar = () => {
             lorem ipsum
           </h1>
         </div>
-        <div className="flex justify-center items-center gap-px">
+        <div className="flex flex-col justify-center items-center gap-px md:flex-row">
           <img src={phoneIcon} alt="phone" className="w-5" />
           <p className="text-md font-medium ">(000) 000-000</p>
         </div>
-        <div className="flex justify-center items-center gap-px">
+        <div className="flex flex-col justify-center items-center gap-px md:flex-row">
           <img src={locationIcon} alt="location" className="w-5" />
-          <p className="text-md font-medium ">
+          <p className="text-md font-medium text-center">
             Mount Lebanon, Pennsylvania 15228
           </p>
         </div>
