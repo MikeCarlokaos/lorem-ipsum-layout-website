@@ -9,7 +9,7 @@ const Navbar = () => {
     setOpenMenu(!openMenu);
   };
   return (
-    <div className="w-full flex flex-col items-center justify-items-center bg-stone-100">
+    <div className="w-full flex flex-col items-center justify-items-center bg-stone-200">
       <div className="w-full flex flex-col items-center justify-center gap-2 px-10 py-5 md:flex-row md:justify-between md:gap-0">
         <div className="flex justify-items-center">
           <h1 className="text-5xl text-center font-extrabold uppercase">
@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="relative w-full flex flex-col items-center justify-center border-y border-y-stone-800/50 md:static">
-        <div className=" w-full h-full flex justify-center  bg-stone-300 md:hidden">
+        <div className=" w-full h-full flex justify-center bg-stone-200 md:hidden">
           <button
             className="flex flex-col h-12 w-12 rounded justify-center items-center group "
             onClick={handleMenu}
@@ -56,7 +56,7 @@ const Navbar = () => {
         </div>
 
         <nav
-          className={`absolute top-12 z-10 w-full h-44 bg-stone-300 py-px ${
+          className={`absolute top-12 z-10 w-full h-44 bg-stone-200 py-px ${
             openMenu ? "" : "hidden"
           } md:block md:static md:h-full md:px-0`}
         >

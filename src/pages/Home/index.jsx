@@ -23,8 +23,6 @@ const Home = () => {
         <About />
         <Services />
         <div className="mt-[40vh]"></div>
-        <Article />
-        <Article />
         <Subarticle />
         <Testimonials />
         <Lists />
